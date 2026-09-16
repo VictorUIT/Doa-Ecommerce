@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest.",
+    "category": "men's clothing",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS961P5PR-BZaH_4G_OucQVBIYTDqi9Eogb5Z43Xd9nQrGvu8ogx7BIPZyz&s=10",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 2,
+    "title": "Mens Casual Premium Slim Fit T-Shirts",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket.",
+    "category": "men's clothing",
+    "image": "https://m.media-amazon.com/images/I/71bVVKxjgeL._AC_UY1000_.jpg",
+    "rating": { "rate": 4.1, "count": 259 }
+  },
+  {
+    "id": 3,
+    "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor",
+    "price": 999.99,
+    "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR.",
+    "category": "electronics",
+    "image": "https://anphat.com.vn/media/product/23772_lc49hg90dmnxza_gallery1_0607.jpg",
+    "rating": { "rate": 4.3, "count": 203 }
+  },
+  {
+    "id": 4,
+    "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket",
+    "price": 56.99,
+    "description": "Note: The Jackets are normally smaller than usual.",
+    "category": "women's clothing",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2k9K4IU0WPQ-tZd7zDUgFR1ywI5H3zVJH72dVRPUjVg&s=10",
+    "rating": { "rate": 4.6, "count": 400 }
+  },
+  {
+    "id": 5,
+    "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+    "price": 695,
+    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon.",
+    "category": "jewelery",
+    "image": "https://m.media-amazon.com/images/I/31gmitu1udL._AC_SY1000_.jpg",
+    "rating": { "rate": 4.6, "count": 400 }
+  },
+  {
+    "id": 6,
+    "title": "AeroBook Pro 14 Laptop",
+    "price": 899.99,
+    "description": "Slim 14-inch laptop with a bright display, fast SSD storage and all-day battery life.",
+    "category": "laptops",
+    "image": "https://minhhightech.com/admin/sanpham/Chuwi-Aero-Book-Pro_2.png",
+    "rating": { "rate": 4.7, "count": 186 }
+  },
+  {
+    "id": 7,
+    "title": "NovaPhone X5 5G Smartphone",
+    "price": 649.99,
+    "description": "5G smartphone with an edge-to-edge display, dual camera system and fast charging.",
+    "category": "smartphones",
+    "image": "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/o/poco-x5-256gb_1_1_2_1.png",
+    "rating": { "rate": 4.5, "count": 312 }
+  },
+  {
+    "id": 8,
+    "title": "QuietWave Pro Wireless Headphones",
+    "price": 179.99,
+    "description": "Wireless over-ear headphones with active noise cancellation and  thirty-hour battery life.",
+    "category": "audio",
+    "image": "https://cdnv2.tgdd.vn/mwg-static/dmx/Products/Images/54/360034/tai-nghe-blutetooth-chup-tai-earfun-wavepro-1-639017659927992559.jpg",
+    "rating": { "rate": 4.8, "count": 274 }
+  },
+  {
+    "id": 9,
+    "title": "TypeLight RGB Mechanical Keyboard",
+    "price": 89.99,
+    "description": "Compact mechanical keyboard with tactile switches, programmable keys and RGB lighting.",
+    "category": "computer accessories",
+    "image": "https://m.media-amazon.com/images/I/71rX-ODNHvL._AC_UF1000,1000_QL80_.jpg",
+    "rating": { "rate": 4.4, "count": 198 }
+  },
+  {
+    "id": 10,
+    "title": "PixelCraft Mirrorless Camera",
+    "price": 799.99,
+    "description": "Lightweight mirrorless camera with sharp 4K video, fast autofocus and interchangeable lenses.",
+    "category": "cameras",
+    "image": "https://pixelsperfect.in/wp-content/uploads/2026/09/F1-500x500.webp",
+    "rating": { "rate": 4.6, "count": 143 }
+  },
+  {
+    "id": 11,
+    "title": "HomeBeat Smart Speaker Mini",
+    "price": 59.99,
+    "description": "Compact smart speaker with room-filling sound and voice assistant support.",
+    "category": "smart home",
+    "image": "https://www.bhphotovideo.com/cdn-cgi/image/fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/ihome_ibt88_bluetooth_rechargeable_mine_speaker_1396284400_1043052.jpg",
+    "rating": { "rate": 4.3, "count": 221 }
+  },
+  {
+    "id": 12,
+    "title": "PulseFit Active Smartwatch",
+    "price": 129.99,
+    "description": "Fitness smartwatch with heart-rate tracking, sleep insights and water resistance.",
+    "category": "wearables",
+    "image": "https://fidgetz.co.uk/cdn/shop/files/PulseFit-Black.png?v=1761327773",
+    "rating": { "rate": 4.5, "count": 167 }
+  },
+  {
+    "id": 13,
+    "title": "LinkMesh AX3000 Wi-Fi Router",
+    "price": 119.99,
+    "description": "Dual-band Wi-Fi 6 router designed for fast streaming, gaming and connected homes.",
+    "category": "networking",
+    "image": "https://media.tripmap.vn/marketplace/2025/10/bo-phat-wifi-6-tp-link-mesh-wma301-wma302-ax3000-sieu-toc-phu-song-toan-bo-nha-gia-chi-289k-1759868493-600x600.webp",
+    "rating": { "rate": 4.4, "count": 109 }
+  },
+  {
+    "id": 14,
+    "title": "GameCore Wireless Controller",
+    "price": 69.99,
+    "description": "Ergonomic wireless controller with responsive triggers and low-latency gameplay.",
+    "category": "gaming",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTheXH5-R4Xoh1UWUIQtwOfh7HDBwdVCDVXLcHHZ4JQl_oF0jUOtW_wv38&s=10",
+    "rating": { "rate": 4.6, "count": 238 }
+  },
+  {
+    "id": 15,
+    "title": "VoltGo 20000mAh Power Bank",
+    "price": 49.99,
+    "description": "High-capacity portable charger with USB-C fast charging for phones, tablets and more.",
+    "category": "power and charging",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYCpEHCD1teh--BVO4GR_FBOvtpnwTJOfCYpru7MR58w&s=10",
+    "rating": { "rate": 4.5, "count": 356 }
+  },
+  {
+    "id": 16,
+    "title": "AeroBook Air 13 Laptop",
+    "price": 729.99,
+    "description": "Portable 13-inch notebook for study, work and everyday productivity.",
+    "category": "laptops",
+    "image": "https://minhhightech.com/images/ckeditor/images2/a940732a0b9558d7101794f743e1f5a8.jpg",
+    "rating": { "rate": 4.4, "count": 124 }
+  },
+  {
+    "id": 17,
+    "title": "NovaPhone Lite 5G",
+    "price": 349.99,
+    "description": "Affordable 5G phone with a vivid screen, reliable battery and modern design.",
+    "category": "smartphones",
+    "image": "https://product.hstatic.net/200000373523/product/image-removebg-preview-19_c57dd04dff8e43f28e59674781660d74.png",
+    "rating": { "rate": 4.2, "count": 189 }
+  },
+  {
+    "id": 18,
+    "title": "BassFlow Sport Earbuds",
+    "price": 79.99,
+    "description": "True wireless earbuds with secure fit, clear calls and sweat resistance.",
+    "category": "audio",
+    "image": "https://baochauelec.com/upload/original-image/tai-nghe-true-wireless-bose-sport-earbuds-xanh-1.jpg",
+    "rating": { "rate": 4.3, "count": 267 }
+  },
+  {
+    "id": 19,
+    "title": "StudioView 27 4K Monitor",
+    "price": 429.99,
+    "description": "Color-accurate 27-inch 4K monitor for creative work, office tasks and entertainment.",
+    "category": "electronics",
+    "image": "https://specular-assets.spicyweb.net.au/media/Brands-A-D/BenQ/_650x650_letterbox_center-center_none_ffffff/SW272-01.jpg",
+    "rating": { "rate": 4.7, "count": 155 }
+  },
+  {
+    "id": 20,
+    "title": "KeyDock Wireless Desk Set",
+    "price": 109.99,
+    "description": "Wireless keyboard and mouse set with a clean design for modern workspaces.",
+    "category": "computer accessories",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc7xk4WyNGitPGjhko8_KcLYDK3mv6XdVP3ODZkSqUXwZt_Un7rkODQ67k&s=10",
+    "rating": { "rate": 4.1, "count": 92 }
+  },
+  {
+    "id": 21,
+    "title": "VisionCam 4K Creator Camera",
+    "price": 999.99,
+    "description": "Creator-focused camera with 4K recording, image stabilization and crisp still photos.",
+    "category": "cameras",
+    "image": "https://m.media-amazon.com/images/I/61MC4xSiHoL._AC_UF894,1000_QL80_.jpg",
+    "rating": { "rate": 4.8, "count": 87 }
+  },
+  {
+    "id": 22,
+    "title": "HomeBeat Room Speaker",
+    "price": 149.99,
+    "description": "Multi-room smart speaker with rich bass, voice controls and simple setup.",
+    "category": "smart home",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6JN9VtGTt0_wmEb4Rp3fe8nPFHH2chfiGx4fK7yNuHMRy8a7yUL_LRQE&s=10",
+    "rating": { "rate": 4.5, "count": 131 }
+  },
+  {
+    "id": 23,
+    "title": "FitTrack Pro Health Watch",
+    "price": 199.99,
+    "description": "Advanced health watch with workout modes, GPS and bright always-on display.",
+    "category": "wearables",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWC8auWpdzoLVfB57bybYDU6ROVqUBLUkqCMvEoASSqpK0KoYDEAxeMhU&s=10",
+    "rating": { "rate": 4.6, "count": 176 }
+  },
+  {
+    "id": 24,
+    "title": "GameCore Pro Wireless Pad",
+    "price": 99.99,
+    "description": "Premium gamepad with textured grips, precision controls and custom profiles.",
+    "category": "gaming",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61qvM6FcKUL.jpg",
+    "rating": { "rate": 4.7, "count": 204 }
+  },
+  {
+    "id": 25,
+    "title": "ChargeHub 100W USB-C Station",
+    "price": 74.99,
+    "description": "Multi-port charging station for laptops, phones, tablets and other USB-C devices.",
+    "category": "power and charging",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo1Br8Sawht9GgrnfdCvu0Ge4ldbREF584XX_Gi2qfItBzDdxf7Ilvcz-w&s=10",
+    "rating": { "rate": 4.4, "count": 115 }
+  }
+]

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#e9edf7"/>
+  <circle cx="520" cy="100" r="78" fill="#d4dcf0"/>
+  <rect x="104" y="84" width="432" height="250" rx="18" fill="#20283d"/>
+  <rect x="126" y="106" width="388" height="206" rx="8" fill="#5f7fe3"/>
+  <path d="M150 265c60-110 118 30 175-45s108 30 165-66v158H150z" fill="#a9e2d1" opacity=".9"/>
+  <rect x="285" y="334" width="70" height="58" fill="#303a55"/>
+  <path d="M225 400h190" stroke="#303a55" stroke-width="16" stroke-linecap="round"/>
+  <text x="320" y="445" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#303a55">CURVED DISPLAY</text>
+</svg>

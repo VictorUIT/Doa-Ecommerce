@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#f5eee2"/>
+  <circle cx="520" cy="96" r="70" fill="#ead9bb"/>
+  <ellipse cx="320" cy="235" rx="155" ry="112" fill="none" stroke="#c59442" stroke-width="34"/>
+  <ellipse cx="320" cy="235" rx="105" ry="73" fill="none" stroke="#f0d58c" stroke-width="12"/>
+  <path d="M185 168c52-68 127-82 185-52l-35 48c-39-15-75-5-101 28z" fill="#8b6a35"/>
+  <circle cx="455" cy="151" r="29" fill="#b77b2f"/>
+  <path d="M455 126l9 18 20 3-14 14 3 20-18-9-18 9 3-20-14-14 20-3z" fill="#fff0bc"/>
+  <text x="320" y="445" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#785827">LEGENDS BRACELET</text>
+</svg>

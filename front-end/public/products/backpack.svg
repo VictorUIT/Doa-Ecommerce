@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#e6f0f4"/>
+  <circle cx="530" cy="90" r="72" fill="#c9e1e8"/>
+  <path d="M220 170c0-58 45-104 100-104s100 46 100 104v44H220z" fill="#345b68"/>
+  <rect x="170" y="160" width="300" height="245" rx="58" fill="#4d8795"/>
+  <path d="M220 185h200v90H220z" fill="#75a9b2"/>
+  <rect x="250" y="300" width="140" height="55" rx="18" fill="#244752"/>
+  <path d="M170 235C105 265 105 370 175 385M470 235c65 30 65 135-5 150" fill="none" stroke="#244752" stroke-width="24" stroke-linecap="round"/>
+  <text x="320" y="445" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#244752">EVERYDAY PACK</text>
+</svg>

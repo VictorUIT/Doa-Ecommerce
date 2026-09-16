@@ -1,0 +1,24 @@
+[
+  {
+    "id": "5e59d9d1-aa31-40c0-8cef-7ec8c3f9d5d0",
+    "userId": 1,
+    "customer": {
+      "name": "Nguyen Van A",
+      "email": "a@example.com",
+      "phone": "0912345678",
+      "address": "1 Nguyen Hue"
+    },
+    "items": [
+      {
+        "productId": 1,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "quantity": 2,
+        "subtotal": 219.9
+      }
+    ],
+    "total": 219.9,
+    "status": "pending",
+    "createdAt": "2026-09-15T15:09:39.848Z"
+  }
+]
