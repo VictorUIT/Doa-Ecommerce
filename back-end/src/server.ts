@@ -8,9 +8,37 @@ import { pool, initializeDatabase } from "./db/database.js";
 
 const app = express();
 const port = Number(process.env.PORT) || 4000;
-const allowedOrigin = process.env.CLIENT_ORIGIN || "http://localhost:5173";
+const allowedOrigins = [
+  "https://doa-ecommerce.vercel.app",
+  "http://localhost:5173",
+];
 
-app.use(cors({ origin: allowedOrigin }));
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      // Cho phép request không có Origin
+      if (!origin) {
+        return callback(null, true);
+      }
+
+      // Cho phép Production và Localhost
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+
+      // Cho phép các Preview Deployment của Vercel
+      if (
+        /^https:\/\/doa-ecommerce-[a-z0-9-]+-victor-ai-lab\.vercel\.app$/.test(
+          origin
+        )
+      ) {
+        return callback(null, true);
+      }
+
+      return callback(new Error("Not allowed by CORS"));
+    },
+  })
+);
 app.use(express.json({ limit: "1mb" }));
 
 app.get("/api/health", async (_req, res, next) => {
