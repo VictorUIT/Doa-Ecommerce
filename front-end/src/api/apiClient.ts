@@ -6,7 +6,7 @@ const cleanUrl = rawUrl.replace(/[\[\]()]/g, "").trim();
 
 const api = axios.create({
   baseURL: cleanUrl,
-  timeout: 5000,
+  timeout: 30000,
 });
 
 export default api;
