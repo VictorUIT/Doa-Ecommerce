@@ -11,6 +11,8 @@ const port = Number(process.env.PORT) || 4000;
 const allowedOrigins = [
   "https://doa-ecommerce.vercel.app",
   "http://localhost:5173",
+  "http://127.0.0.1:5173",
+  "http://localhost:4173",
 ];
 
 app.use(

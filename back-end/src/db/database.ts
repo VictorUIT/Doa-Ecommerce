@@ -6,9 +6,18 @@ import pg from "pg";
 const { Pool } = pg;
 const currentDirectory = path.dirname(fileURLToPath(import.meta.url));
 const dataDirectory = path.resolve(currentDirectory, "../data");
+const connectionString = process.env.DATABASE_URL;
+const hasSslMode = /(?:^|[?&])sslmode=/.test(connectionString ?? "");
+const normalizedConnectionString = connectionString
+  ? hasSslMode
+    ? connectionString
+    : `${connectionString}${connectionString.includes("?") ? "&" : "?"}sslmode=require`
+  : undefined;
+const needsSsl = /neon\.tech|render\.com|supabase\.|aws\.|postgresql/i.test(connectionString ?? "");
 
 export const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
+  connectionString: normalizedConnectionString,
+  ...(needsSsl || hasSslMode ? { ssl: { rejectUnauthorized: false } } : {}),
 });
 
 async function readSeedFile(fileName) {

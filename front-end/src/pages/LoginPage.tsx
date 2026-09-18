@@ -142,7 +142,7 @@ function LoginPage() {
               color="text.secondary"
               gutterBottom
             >
-              💡 Tài khoản test từ Fake Store API:
+              💡 Tài khoản test:
             </Typography>
             <Typography
               variant="caption"

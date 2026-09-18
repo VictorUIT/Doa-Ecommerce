@@ -11,10 +11,18 @@ import {
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import { useCart } from "../context/CartContext";
 
 function QuickViewModal({ product, onClose }) {
+  const { addToCart } = useCart();
   // open = true nếu có product, ngược lại là false
   const isOpen = Boolean(product);
+
+  const handleAddToCart = () => {
+    if (!product) return;
+    addToCart(product);
+    onClose();
+  };
 
   return (
     <Dialog
@@ -116,6 +124,7 @@ function QuickViewModal({ product, onClose }) {
                     fullWidth
                     size="large"
                     startIcon={<AddShoppingCartIcon />}
+                    onClick={handleAddToCart}
                   >
                     Thêm vào giỏ
                   </Button>
